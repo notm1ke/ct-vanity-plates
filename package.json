@@ -1,0 +1,31 @@
+{
+  "name": "ct-vanity-plates",
+  "version": "1.0.0",
+  "description": "Small script to check CT Vanity Plate availability",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/notm1ke/ct-vanity-plates.git"
+  },
+  "author": "Mike Medved",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/notm1ke/ct-vanity-plates/issues"
+  },
+  "homepage": "https://github.com/notm1ke/ct-vanity-plates#readme",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "cheerio": "^1.0.0-rc.12",
+    "qs": "^6.11.2"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^20.11.5",
+    "@types/qs": "^6.9.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
